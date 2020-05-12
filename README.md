@@ -1,6 +1,11 @@
-# bipolar_test
+# Gallery
 
 A new Flutter project.
+
+Good to learn GridView using Card to fit images.
+Implements TabView in UI.
+
+Has Provider as State management system.
 
 ## Getting Started
 
