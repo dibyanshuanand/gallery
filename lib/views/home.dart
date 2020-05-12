@@ -33,7 +33,7 @@ class _HomeState extends State<Home> {
                         border: Border.all(color: Colors.grey[600], width: 1)),
                     child: Align(
                       alignment: Alignment.center,
-                      child: Text("Tab 1"),
+                      child: Text("Lifestyle"),
                     ),
                   ),
                 ),
@@ -44,7 +44,7 @@ class _HomeState extends State<Home> {
                         border: Border.all(color: Colors.grey[600], width: 1)),
                     child: Align(
                       alignment: Alignment.center,
-                      child: Text("Tab 2"),
+                      child: Text("Cats"),
                     ),
                   ),
                 ),
