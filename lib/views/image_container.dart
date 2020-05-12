@@ -20,7 +20,10 @@ class ImageContainer extends StatelessWidget {
                 height: 230,
                 child: ClipRRect(
                   borderRadius: BorderRadius.all(Radius.circular(10.0)),
-                  child: Image.network(url, fit: BoxFit.fitHeight),
+                  child: FadeInImage.assetNetwork(
+                    placeholder: "assets/flutter_small.png", 
+                    image: url, 
+                    fit: BoxFit.fitHeight,),
                 ),
               ),
             ],
