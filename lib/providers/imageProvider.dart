@@ -7,7 +7,7 @@ import 'dart:async';
 
 class MyImageProvider extends ChangeNotifier {
   ImageList imageList;
-  String url = "https://api.unsplash.com/collections/1580860/photos/?client_id=1EfUjV0I1JVR0gCSpoA9vcuy2-jgs6rge2oJ53IvPgI";
+  String url = "https://api.unsplash.com/collections/1580860/photos/?client_id=<Enter client id>"; //TODO: Enter client id to access API
 
   Future<ImageList> fetchImages() async {
     try {
